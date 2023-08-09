@@ -1,0 +1,13 @@
+body {
+  height: 1200px;
+  background: linear-gradient(450deg, #7186ff, #ff6666);
+  }
+  H1 {
+    background: linear-gradient(450deg, #ff6e6e, #6b81ff );
+    font-size: 500%;
+    font-family: Arial, Verdana, sans-serif;
+    text-align: center;
+  }
+  P {
+    padding-left: 20px;
+  }
