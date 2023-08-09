@@ -1,2 +1,0 @@
-# minefacts.github.io
- 
