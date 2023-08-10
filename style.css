@@ -5,19 +5,6 @@ body {
   background: linear-gradient(450deg, #000000, #000000);
   }
   
-
-  .transparent-text1 {
-    font-family: 'Rubik One', sans-serif;
-    font-size: 50px;
-    text-transform: uppercase;
-    background: #ffffff;
-    display: table;
-    margin: 20px auto;
-    color: black;
-    border-radius: 5px;
-    mix-blend-mode: multiply;
-    padding: 5px 10px;
-  }
   .p {
     padding-left: 20px;
   }
@@ -87,8 +74,8 @@ border: 0px solid linear-gradient(450deg, #22e6b9, #7525b9);
       text-align: center;
       color: rgb(255 255 255 / 0%);
 border: 0px solid #ffffff00;
-border-width: 1px 1px 1px 1px;
-      background: linear-gradient(450deg, #22e6b9, #7525b9);
+border-width: 0px 0px 0px 0px;
+      background: linear-gradient(360deg, #22e6b9, #7525b9);
 border-radius: 3px 3px 0 0;
 }
 /* Шрифт-иконки от Font Awesome в формате Unicode */
@@ -117,10 +104,16 @@ cursor: pointer;
 }
 /* Стили для активной вкладки */
 .tabs>input:checked+label {
-      color: rgb(0 0 0 / 0%);
-border-top: 1px solid #00000000;
-border-bottom: 1px solid rgb(0 0 0 / 0%);
-background: linear-gradient(450deg, #22e6b9, #7525b9);
+      color: rgb(0 0 0);
+border-top: 0px solid #000000;
+border-bottom: 0px solid rgb(0 0 0);
+background: linear-gradient(180deg, #22e6b9, #7525b9);
+ -webkit-animation-duration: 3s;
+      animation-duration: 3s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-name: fadeIn;
+      animation-name: fadeIn; 
 }
 /* Активация секций с помощью псевдокласса :checked */
 #tab1:checked~#content-tab1, #tab2:checked~#content-tab2, #tab3:checked~#content-tab3, #tab4:checked~#content-tab4 {
