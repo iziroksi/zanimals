@@ -2,13 +2,13 @@
 }
 body {
   
-  background: black;
+  background: linear-gradient(450deg, #b700ff98, #1400c396);
   }
   
 
   H1 {
     background-clip: text;
-    background: linear-gradient (450deg, #1af7c4, #ffcbe0);
+    background: linear-gradient(450deg, #6800f1, #c38500 );
     
     font-size: 500%;
     font-family: Arial, Verdana, sans-serif;
@@ -21,7 +21,7 @@ body {
     font-family: 'Rubik One', sans-serif;
     font-size: 50px;
     text-transform: uppercase;
-    background: linear-gradient (450deg, #1af7c4, #ffcbe0);
+    background: #2E2F45;
     display: table;
     margin: 20px auto;
     color: white;
@@ -36,12 +36,13 @@ body {
 .tabs>section {
       display: none;
       padding: 15px;
-      background: linear-gradient (450deg, #1af7c4, #ffcbe0);
+      background: #ffb94f;
+border: 1px solid #ffb94f;
 }
 .tabs>section>p {
       margin: 0 0 5px;
       line-height: 1.5;
-      background: linear-gradient (450deg, #1af7c4, #ffcbe0);
+      color: #383838;
 /* прикрутим анимацию */
       -webkit-animation-duration: 1s;
       animation-duration: 1s;
@@ -83,7 +84,7 @@ body {
       color: rgb(224, 224, 224);
 border: 0px solid #ffb94f;
 border-width: 1px 1px 1px 1px;
-      background: linear-gradient (450deg, #1af7c4, #ffcbe0);
+      background: #ffb94f;
 border-radius: 3px 3px 0 0;
 }
 /* Шрифт-иконки от Font Awesome в формате Unicode */
@@ -115,7 +116,7 @@ cursor: pointer;
       color: rgb(0, 0, 0);
 border-top: 1px solid #ffb94f;
 border-bottom: 1px solid rgba(120, 29, 156, 0);
-background: linear-gradient (450deg, #1af7c4, #ffcbe0);
+background: #ffb94f;
 }
 /* Активация секций с помощью псевдокласса :checked */
 #tab1:checked~#content-tab1, #tab2:checked~#content-tab2, #tab3:checked~#content-tab3, #tab4:checked~#content-tab4 {
