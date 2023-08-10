@@ -6,7 +6,7 @@ body {
   }
   
 
-  H1 {
+  .transparent-text1 {
     font-family: 'Rubik One', sans-serif;
     font-size: 50px;
     text-transform: uppercase;
