@@ -31,7 +31,7 @@ body {
       padding: 15px;
       background: linear-gradient(450deg, #4646ff, #e92bff);
 border: 0px solid linear-gradient(450deg, #4646ff, #e92bff);
-  
+  border-radius: 0px 35px 35px 35px;
 }
 .tabs>section>p {
       margin: 0 0 5px;
