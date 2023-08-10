@@ -1,6 +1,7 @@
 @media all and (max-width:5000px) {
 }
 body {
+
   
   background: linear-gradient(450deg, #000000, #000000);
   }
@@ -19,6 +20,7 @@ body {
     border-radius: 5px;
     mix-blend-mode: multiply;
     padding: 5px 10px;
+    
   }
   .center-pic{
     text-align:center;
@@ -27,8 +29,9 @@ body {
 .tabs>section {
       display: none;
       padding: 15px;
-      background: linear-gradient(450deg, #22e6b9, #7525b9);
-border: 0px solid linear-gradient(450deg, #22e6b9, #7525b9);
+      background: linear-gradient(450deg, #4646ff, #e92bff);
+border: 0px solid linear-gradient(450deg, #4646ff, #e92bff);
+  
 }
 .tabs>section>p {
       margin: 0 0 5px;
@@ -41,6 +44,7 @@ border: 0px solid linear-gradient(450deg, #22e6b9, #7525b9);
       animation-fill-mode: both;
       -webkit-animation-name: fadeIn;
       animation-name: fadeIn;
+  
 }
 /* Описываем анимацию свойства opacity */
 
@@ -75,7 +79,7 @@ border: 0px solid linear-gradient(450deg, #22e6b9, #7525b9);
       color: rgb(255 255 255 / 0%);
 border: 0px solid #ffffff00;
 border-width: 0px 0px 0px 0px;
-      background: linear-gradient(360deg, #22e6b9, #7525b9);
+      background: linear-gradient(360deg, #4646ff, #e92bff);
 border-radius: 3px 3px 0 0;
 }
 /* Шрифт-иконки от Font Awesome в формате Unicode */
@@ -103,11 +107,11 @@ border-radius: 3px 3px 0 0;
 cursor: pointer;
 }
 /* Стили для активной вкладки */
-.tabs>input:checked+label {
+.tabs>input:checked+label { 
       color: rgb(0 0 0);
 border-top: 0px solid #000000;
 border-bottom: 0px solid rgb(0 0 0);
-background: linear-gradient(180deg, #22e6b9, #7525b9);
+background: linear-gradient(180deg, #4646ff, #e92bff);
  -webkit-animation-duration: 3s;
       animation-duration: 3s;
       -webkit-animation-fill-mode: both;
