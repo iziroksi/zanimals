@@ -44,7 +44,9 @@ border: 0px solid linear-gradient(450deg, #4646ff, #e92bff);
       animation-fill-mode: both;
       -webkit-animation-name: fadeIn;
       animation-name: fadeIn;
-  
+  background-color: #ecddfc;
+  border-radius: 25px;
+
 }
 /* Описываем анимацию свойства opacity */
 
@@ -80,7 +82,9 @@ border: 0px solid linear-gradient(450deg, #4646ff, #e92bff);
 border: 0px solid #ffffff00;
 border-width: 0px 0px 0px 0px;
       background: linear-gradient(360deg, #4646ff, #e92bff);
-border-radius: 3px 3px 0 0;
+border-radius: 0px 0px 0 0;
+  border-radius: 15px 15px 0px 0px;
+   
 }
 /* Шрифт-иконки от Font Awesome в формате Unicode */
 .tabs>label:before {
@@ -118,6 +122,7 @@ background: linear-gradient(180deg, #4646ff, #e92bff);
       animation-fill-mode: both;
       -webkit-animation-name: fadeIn;
       animation-name: fadeIn; 
+  border-radius: 15px 15px 0px 0px;
 }
 /* Активация секций с помощью псевдокласса :checked */
 #tab1:checked~#content-tab1, #tab2:checked~#content-tab2, #tab3:checked~#content-tab3, #tab4:checked~#content-tab4 {
