@@ -2,7 +2,7 @@
 }
 body {
   
-  background: linear-gradient(450deg, #b700ff98, #1400c396, #c2cf08);
+  background: black;
   }
   
 
@@ -36,8 +36,7 @@ body {
 .tabs>section {
       display: none;
       padding: 15px;
-      background: #ffb94f;
-border: 1px solid #ffb94f;
+      background: linear-gradient (450deg, #1af7c4, #7a74e6, #871dd3, #fb2983, #ffcbe0);
 }
 .tabs>section>p {
       margin: 0 0 5px;
