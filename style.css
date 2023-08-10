@@ -1,7 +1,10 @@
-body {
-  height: 1200px;
-  background: linear-gradient(450deg, #7186ff, #ff6666);
-  }
+.bg-ex-fixed{
+  background: url(1662055997_9-oir-mobi-p-fon-priroda-vertikalnii-instagram-10.jpg); /* Путь к картинке */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Закрепляем изображение */
+}
   H1 {
     background: linear-gradient(450deg, #ff6e6e, #6b81ff );
     font-size: 500%;
